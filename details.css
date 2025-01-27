@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbe7e7;
+    text-align: center;
+}
+h1 {
+    color: #d6336c;
+}
+.gif {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.hidden {
+    display: none;
+}
+#yesButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #d6336c;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
